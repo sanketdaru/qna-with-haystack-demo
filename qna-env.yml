@@ -1,0 +1,11 @@
+name: qna-env
+channels:
+  - pytorch
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.16
+  - transformers
+  - greenlet
+  - pytorch
